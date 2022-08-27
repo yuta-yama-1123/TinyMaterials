@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C229C128BA66EF00BF7D10 /* TinyMaterialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229C028BA66EF00BF7D10 /* TinyMaterialsApp.swift */; };
+		03C229C328BA66EF00BF7D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229C228BA66EF00BF7D10 /* ContentView.swift */; };
+		03C229C528BA66EF00BF7D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C229C428BA66EF00BF7D10 /* Assets.xcassets */; };
+		03C229C828BA66EF00BF7D10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C229C728BA66EF00BF7D10 /* Preview Assets.xcassets */; };
+		03C229D228BA66F000BF7D10 /* TinyMaterialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229D128BA66F000BF7D10 /* TinyMaterialsTests.swift */; };
+		03C229DC28BA66F000BF7D10 /* TinyMaterialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229DB28BA66F000BF7D10 /* TinyMaterialsUITests.swift */; };
+		03C229DE28BA66F000BF7D10 /* TinyMaterialsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229DD28BA66F000BF7D10 /* TinyMaterialsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C229CE28BA66F000BF7D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C229B528BA66EF00BF7D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C229BC28BA66EF00BF7D10;
+			remoteInfo = TinyMaterials;
+		};
+		03C229D828BA66F000BF7D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03C229B528BA66EF00BF7D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03C229BC28BA66EF00BF7D10;
+			remoteInfo = TinyMaterials;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C229BD28BA66EF00BF7D10 /* TinyMaterials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyMaterials.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C229C028BA66EF00BF7D10 /* TinyMaterialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyMaterialsApp.swift; sourceTree = "<group>"; };
+		03C229C228BA66EF00BF7D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03C229C428BA66EF00BF7D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03C229C728BA66EF00BF7D10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03C229CD28BA66F000BF7D10 /* TinyMaterialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyMaterialsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C229D128BA66F000BF7D10 /* TinyMaterialsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyMaterialsTests.swift; sourceTree = "<group>"; };
+		03C229D728BA66F000BF7D10 /* TinyMaterialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyMaterialsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C229DB28BA66F000BF7D10 /* TinyMaterialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyMaterialsUITests.swift; sourceTree = "<group>"; };
+		03C229DD28BA66F000BF7D10 /* TinyMaterialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyMaterialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C229BA28BA66EF00BF7D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C229CA28BA66F000BF7D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C229D428BA66F000BF7D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C229B428BA66EF00BF7D10 = {
+			isa = PBXGroup;
+			children = (
+				03C229BF28BA66EF00BF7D10 /* TinyMaterials */,
+				03C229D028BA66F000BF7D10 /* TinyMaterialsTests */,
+				03C229DA28BA66F000BF7D10 /* TinyMaterialsUITests */,
+				03C229BE28BA66EF00BF7D10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03C229BE28BA66EF00BF7D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C229BD28BA66EF00BF7D10 /* TinyMaterials.app */,
+				03C229CD28BA66F000BF7D10 /* TinyMaterialsTests.xctest */,
+				03C229D728BA66F000BF7D10 /* TinyMaterialsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C229BF28BA66EF00BF7D10 /* TinyMaterials */ = {
+			isa = PBXGroup;
+			children = (
+				03C229C028BA66EF00BF7D10 /* TinyMaterialsApp.swift */,
+				03C229C228BA66EF00BF7D10 /* ContentView.swift */,
+				03C229C428BA66EF00BF7D10 /* Assets.xcassets */,
+				03C229C628BA66EF00BF7D10 /* Preview Content */,
+			);
+			path = TinyMaterials;
+			sourceTree = "<group>";
+		};
+		03C229C628BA66EF00BF7D10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03C229C728BA66EF00BF7D10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03C229D028BA66F000BF7D10 /* TinyMaterialsTests */ = {
+			isa = PBXGroup;
+			children = (
+				03C229D128BA66F000BF7D10 /* TinyMaterialsTests.swift */,
+			);
+			path = TinyMaterialsTests;
+			sourceTree = "<group>";
+		};
+		03C229DA28BA66F000BF7D10 /* TinyMaterialsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03C229DB28BA66F000BF7D10 /* TinyMaterialsUITests.swift */,
+				03C229DD28BA66F000BF7D10 /* TinyMaterialsUITestsLaunchTests.swift */,
+			);
+			path = TinyMaterialsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C229BC28BA66EF00BF7D10 /* TinyMaterials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C229E128BA66F000BF7D10 /* Build configuration list for PBXNativeTarget "TinyMaterials" */;
+			buildPhases = (
+				03C229B928BA66EF00BF7D10 /* Sources */,
+				03C229BA28BA66EF00BF7D10 /* Frameworks */,
+				03C229BB28BA66EF00BF7D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyMaterials;
+			productName = TinyMaterials;
+			productReference = 03C229BD28BA66EF00BF7D10 /* TinyMaterials.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03C229CC28BA66F000BF7D10 /* TinyMaterialsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C229E428BA66F000BF7D10 /* Build configuration list for PBXNativeTarget "TinyMaterialsTests" */;
+			buildPhases = (
+				03C229C928BA66F000BF7D10 /* Sources */,
+				03C229CA28BA66F000BF7D10 /* Frameworks */,
+				03C229CB28BA66F000BF7D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C229CF28BA66F000BF7D10 /* PBXTargetDependency */,
+			);
+			name = TinyMaterialsTests;
+			productName = TinyMaterialsTests;
+			productReference = 03C229CD28BA66F000BF7D10 /* TinyMaterialsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03C229D628BA66F000BF7D10 /* TinyMaterialsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C229E728BA66F000BF7D10 /* Build configuration list for PBXNativeTarget "TinyMaterialsUITests" */;
+			buildPhases = (
+				03C229D328BA66F000BF7D10 /* Sources */,
+				03C229D428BA66F000BF7D10 /* Frameworks */,
+				03C229D528BA66F000BF7D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C229D928BA66F000BF7D10 /* PBXTargetDependency */,
+			);
+			name = TinyMaterialsUITests;
+			productName = TinyMaterialsUITests;
+			productReference = 03C229D728BA66F000BF7D10 /* TinyMaterialsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C229B528BA66EF00BF7D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					03C229BC28BA66EF00BF7D10 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					03C229CC28BA66F000BF7D10 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 03C229BC28BA66EF00BF7D10;
+					};
+					03C229D628BA66F000BF7D10 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 03C229BC28BA66EF00BF7D10;
+					};
+				};
+			};
+			buildConfigurationList = 03C229B828BA66EF00BF7D10 /* Build configuration list for PBXProject "TinyMaterials" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03C229B428BA66EF00BF7D10;
+			productRefGroup = 03C229BE28BA66EF00BF7D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C229BC28BA66EF00BF7D10 /* TinyMaterials */,
+				03C229CC28BA66F000BF7D10 /* TinyMaterialsTests */,
+				03C229D628BA66F000BF7D10 /* TinyMaterialsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C229BB28BA66EF00BF7D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C229C828BA66EF00BF7D10 /* Preview Assets.xcassets in Resources */,
+				03C229C528BA66EF00BF7D10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C229CB28BA66F000BF7D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C229D528BA66F000BF7D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C229B928BA66EF00BF7D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C229C328BA66EF00BF7D10 /* ContentView.swift in Sources */,
+				03C229C128BA66EF00BF7D10 /* TinyMaterialsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C229C928BA66F000BF7D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C229D228BA66F000BF7D10 /* TinyMaterialsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03C229D328BA66F000BF7D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C229DC28BA66F000BF7D10 /* TinyMaterialsUITests.swift in Sources */,
+				03C229DE28BA66F000BF7D10 /* TinyMaterialsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C229CF28BA66F000BF7D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C229BC28BA66EF00BF7D10 /* TinyMaterials */;
+			targetProxy = 03C229CE28BA66F000BF7D10 /* PBXContainerItemProxy */;
+		};
+		03C229D928BA66F000BF7D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03C229BC28BA66EF00BF7D10 /* TinyMaterials */;
+			targetProxy = 03C229D828BA66F000BF7D10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03C229DF28BA66F000BF7D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03C229E028BA66F000BF7D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03C229E228BA66F000BF7D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyMaterials/Preview Content\"";
+				DEVELOPMENT_TEAM = D92QVWG5E4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutaYamamoto1123.TinyMaterials;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03C229E328BA66F000BF7D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyMaterials/Preview Content\"";
+				DEVELOPMENT_TEAM = D92QVWG5E4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutaYamamoto1123.TinyMaterials;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03C229E528BA66F000BF7D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D92QVWG5E4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutaYamamoto1123.TinyMaterialsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyMaterials.app/TinyMaterials";
+			};
+			name = Debug;
+		};
+		03C229E628BA66F000BF7D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D92QVWG5E4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutaYamamoto1123.TinyMaterialsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyMaterials.app/TinyMaterials";
+			};
+			name = Release;
+		};
+		03C229E828BA66F000BF7D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D92QVWG5E4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutaYamamoto1123.TinyMaterialsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinyMaterials;
+			};
+			name = Debug;
+		};
+		03C229E928BA66F000BF7D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D92QVWG5E4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutaYamamoto1123.TinyMaterialsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinyMaterials;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C229B828BA66EF00BF7D10 /* Build configuration list for PBXProject "TinyMaterials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C229DF28BA66F000BF7D10 /* Debug */,
+				03C229E028BA66F000BF7D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C229E128BA66F000BF7D10 /* Build configuration list for PBXNativeTarget "TinyMaterials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C229E228BA66F000BF7D10 /* Debug */,
+				03C229E328BA66F000BF7D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C229E428BA66F000BF7D10 /* Build configuration list for PBXNativeTarget "TinyMaterialsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C229E528BA66F000BF7D10 /* Debug */,
+				03C229E628BA66F000BF7D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C229E728BA66F000BF7D10 /* Build configuration list for PBXNativeTarget "TinyMaterialsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C229E828BA66F000BF7D10 /* Debug */,
+				03C229E928BA66F000BF7D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C229B528BA66EF00BF7D10 /* Project object */;
+}
