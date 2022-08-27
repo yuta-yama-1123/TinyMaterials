@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		03C229C128BA66EF00BF7D10 /* TinyMaterialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229C028BA66EF00BF7D10 /* TinyMaterialsApp.swift */; };
-		03C229C328BA66EF00BF7D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229C228BA66EF00BF7D10 /* ContentView.swift */; };
+		03C229C328BA66EF00BF7D10 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229C228BA66EF00BF7D10 /* TopView.swift */; };
 		03C229C528BA66EF00BF7D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C229C428BA66EF00BF7D10 /* Assets.xcassets */; };
 		03C229C828BA66EF00BF7D10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C229C728BA66EF00BF7D10 /* Preview Assets.xcassets */; };
 		03C229D228BA66F000BF7D10 /* TinyMaterialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229D128BA66F000BF7D10 /* TinyMaterialsTests.swift */; };
 		03C229DC28BA66F000BF7D10 /* TinyMaterialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229DB28BA66F000BF7D10 /* TinyMaterialsUITests.swift */; };
 		03C229DE28BA66F000BF7D10 /* TinyMaterialsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229DD28BA66F000BF7D10 /* TinyMaterialsUITestsLaunchTests.swift */; };
+		03C229EB28BA694B00BF7D10 /* Samples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229EA28BA694B00BF7D10 /* Samples.swift */; };
+		03C229ED28BA6A4300BF7D10 /* AlertDispView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229EC28BA6A4300BF7D10 /* AlertDispView.swift */; };
+		03C229EF28BA6A6300BF7D10 /* ActionSheetDispView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229EE28BA6A6300BF7D10 /* ActionSheetDispView.swift */; };
+		03C229F128BA6A6F00BF7D10 /* Test3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229F028BA6A6F00BF7D10 /* Test3View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		03C229BD28BA66EF00BF7D10 /* TinyMaterials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyMaterials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C229C028BA66EF00BF7D10 /* TinyMaterialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyMaterialsApp.swift; sourceTree = "<group>"; };
-		03C229C228BA66EF00BF7D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03C229C228BA66EF00BF7D10 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		03C229C428BA66EF00BF7D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03C229C728BA66EF00BF7D10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03C229CD28BA66F000BF7D10 /* TinyMaterialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyMaterialsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		03C229D728BA66F000BF7D10 /* TinyMaterialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyMaterialsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C229DB28BA66F000BF7D10 /* TinyMaterialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyMaterialsUITests.swift; sourceTree = "<group>"; };
 		03C229DD28BA66F000BF7D10 /* TinyMaterialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyMaterialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03C229EA28BA694B00BF7D10 /* Samples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Samples.swift; sourceTree = "<group>"; };
+		03C229EC28BA6A4300BF7D10 /* AlertDispView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDispView.swift; sourceTree = "<group>"; };
+		03C229EE28BA6A6300BF7D10 /* ActionSheetDispView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSheetDispView.swift; sourceTree = "<group>"; };
+		03C229F028BA6A6F00BF7D10 /* Test3View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test3View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +103,13 @@
 			isa = PBXGroup;
 			children = (
 				03C229C028BA66EF00BF7D10 /* TinyMaterialsApp.swift */,
-				03C229C228BA66EF00BF7D10 /* ContentView.swift */,
+				03C229C228BA66EF00BF7D10 /* TopView.swift */,
+				03C229EA28BA694B00BF7D10 /* Samples.swift */,
 				03C229C428BA66EF00BF7D10 /* Assets.xcassets */,
 				03C229C628BA66EF00BF7D10 /* Preview Content */,
+				03C229EC28BA6A4300BF7D10 /* AlertDispView.swift */,
+				03C229EE28BA6A6300BF7D10 /* ActionSheetDispView.swift */,
+				03C229F028BA6A6F00BF7D10 /* Test3View.swift */,
 			);
 			path = TinyMaterials;
 			sourceTree = "<group>";
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03C229C328BA66EF00BF7D10 /* ContentView.swift in Sources */,
+				03C229C328BA66EF00BF7D10 /* TopView.swift in Sources */,
 				03C229C128BA66EF00BF7D10 /* TinyMaterialsApp.swift in Sources */,
+				03C229F128BA6A6F00BF7D10 /* Test3View.swift in Sources */,
+				03C229ED28BA6A4300BF7D10 /* AlertDispView.swift in Sources */,
+				03C229EF28BA6A6300BF7D10 /* ActionSheetDispView.swift in Sources */,
+				03C229EB28BA694B00BF7D10 /* Samples.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
