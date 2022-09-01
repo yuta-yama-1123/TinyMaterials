@@ -31,12 +31,12 @@ struct TopView: View {
         return AnyView(NavigationLink (destination: ActionSheetDispView()) {
           Text(sample.title)
         })
-      case .test3:
-        return AnyView(NavigationLink (destination: Test3View()) {
+      case .urlLink:
+        return AnyView(NavigationLink (destination: URLLinkView()) {
           Text(sample.title)
         })
-      case .test4:
-        return AnyView(NavigationLink (destination: Test3View()) {
+      case .userDefaults:
+        return AnyView(NavigationLink (destination: UserDefaultsView()) {
           Text(sample.title)
         })
     }

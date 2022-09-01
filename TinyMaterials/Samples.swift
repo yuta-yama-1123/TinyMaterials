@@ -9,12 +9,13 @@ struct Sample: Identifiable {
 enum ViewEnum {
     case alert
     case actionSheet
-    case test3
-    case test4
+    case urlLink
+    case userDefaults
 }
 
 let samples: [Sample] = [
     Sample(id: 1, title: "Alert", view: .alert),
     Sample(id: 2, title: "ActionSheet", view: .actionSheet),
-    Sample(id: 3, title: "Test3", view: .test3)
+    Sample(id: 3, title: "URLLink", view: .urlLink),
+    Sample(id: 4, title: "UserDefaults", view: .userDefaults)
 ]

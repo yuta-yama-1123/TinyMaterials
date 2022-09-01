@@ -31,6 +31,8 @@ struct ActionSheetDispView: View {
         ]
       )
     }
+    .navigationBarTitleDisplayMode(.inline)
+    .navigationTitle(Text("アクションシート"))
   }
 }
 
