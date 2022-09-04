@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0324B4F428C4765F003E7272 /* UserNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0324B4F328C4765F003E7272 /* UserNotesView.swift */; };
 		03C229C128BA66EF00BF7D10 /* TinyMaterialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229C028BA66EF00BF7D10 /* TinyMaterialsApp.swift */; };
 		03C229C328BA66EF00BF7D10 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C229C228BA66EF00BF7D10 /* TopView.swift */; };
 		03C229C528BA66EF00BF7D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C229C428BA66EF00BF7D10 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0324B4F328C4765F003E7272 /* UserNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotesView.swift; sourceTree = "<group>"; };
 		03C229BD28BA66EF00BF7D10 /* TinyMaterials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyMaterials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C229C028BA66EF00BF7D10 /* TinyMaterialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyMaterialsApp.swift; sourceTree = "<group>"; };
 		03C229C228BA66EF00BF7D10 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				03C229EE28BA6A6300BF7D10 /* ActionSheetDispView.swift */,
 				03C229F028BA6A6F00BF7D10 /* URLLinkView.swift */,
 				03C22A0428C1288C00BF7D10 /* UserDefaultsView.swift */,
+				0324B4F328C4765F003E7272 /* UserNotesView.swift */,
 			);
 			path = TinyMaterials;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			files = (
 				03C229C328BA66EF00BF7D10 /* TopView.swift in Sources */,
 				03C229C128BA66EF00BF7D10 /* TinyMaterialsApp.swift in Sources */,
+				0324B4F428C4765F003E7272 /* UserNotesView.swift in Sources */,
 				03C229F128BA6A6F00BF7D10 /* URLLinkView.swift in Sources */,
 				03C229ED28BA6A4300BF7D10 /* AlertDispView.swift in Sources */,
 				03C229EF28BA6A6300BF7D10 /* ActionSheetDispView.swift in Sources */,

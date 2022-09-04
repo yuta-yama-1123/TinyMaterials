@@ -39,6 +39,10 @@ struct TopView: View {
         return AnyView(NavigationLink (destination: UserDefaultsView()) {
           Text(sample.title)
         })
+      case .localNotes:
+        return AnyView(NavigationLink (destination: LocalNotesView()) {
+          Text(sample.title)
+        })
     }
   }
 }
