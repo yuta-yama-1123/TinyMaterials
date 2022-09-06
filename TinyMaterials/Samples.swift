@@ -12,6 +12,7 @@ enum ViewEnum {
   case urlLink
   case userDefaults
   case localNotes
+  case userLocationMap
 }
 
 let samples: [Sample] = [
@@ -19,5 +20,6 @@ let samples: [Sample] = [
   Sample(id: 2, title: "ActionSheet", view: .actionSheet),
   Sample(id: 3, title: "URLLink", view: .urlLink),
   Sample(id: 4, title: "UserDefaults", view: .userDefaults),
-  Sample(id: 5, title: "LocalNotes", view: .localNotes)
+  Sample(id: 5, title: "LocalNotes", view: .localNotes),
+  Sample(id: 6, title: "UserLocationMap", view: .userLocationMap)
 ]
